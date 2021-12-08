@@ -1,0 +1,136 @@
+{
+  "main": {
+    "id": "9af345b2e64a281f",
+    "type": "split",
+    "children": [
+      {
+        "id": "5b80af7ed37408b9",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Digitone/EditExistingSound.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "74c91e5b16342f19",
+    "type": "split",
+    "children": [
+      {
+        "id": "dee6ec9309e3e32c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e25de24714356c2f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#how-to",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b95bf644da18d311",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9275958b04560478",
+    "type": "split",
+    "children": [
+      {
+        "id": "5cdb5d0a3de8ba32",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c6e2a77d9454a38d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Digitone/EditExistingSound.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "49eb6cc0eaa652dc",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Digitone/EditExistingSound.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "83476b087358d26b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "1ee1ab8af8b4cbc3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Digitone/EditExistingSound.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "5b80af7ed37408b9",
+  "lastOpenFiles": [
+    "Digitone/EditExistingSound.md",
+    "Digitone/MakeNewProject.md",
+    "Digitone/EnvelopeNotes.md",
+    "Digitone/Terms.md",
+    "Digitone/MakeNewSound.md",
+    "Digitone/LoadSound.md",
+    "DataStructures/GraphConnection.md",
+    "DataStructures/Graph.md",
+    "Books/TheRustProgrammingLanguage/CH3_CommonProgrammingConcepts.md",
+    "Books/TheRustProgrammingLanguage/CH1_Intro.md"
+  ]
+}

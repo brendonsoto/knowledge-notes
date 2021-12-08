@@ -1,0 +1,14 @@
+{
+  "spellcheck": true,
+  "readableLineLength": false,
+  "foldHeading": true,
+  "foldIndent": true,
+  "useTab": false,
+  "tabSize": 2,
+  "vimMode": true,
+  "emacsyKeys": false,
+  "newLinkFormat": "absolute",
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current",
+  "promptDelete": false
+}
