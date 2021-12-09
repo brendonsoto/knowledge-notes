@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "ADHD/HowToGiveYourBrainTheStimulationItNeeds.md",
             "mode": "source"
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "ADHD/HowToGiveYourBrainTheStimulationItNeeds.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "ADHD/HowToGiveYourBrainTheStimulationItNeeds.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "ADHD/HowToGiveYourBrainTheStimulationItNeeds.md"
               }
             }
           }
@@ -122,6 +122,8 @@
   },
   "active": "5b80af7ed37408b9",
   "lastOpenFiles": [
+    "ADHD/HowToGiveYourBrainTheStimulationItNeeds.md",
+    "ADHD/HowToNotNeedAsMuchMotivationToDoTheThing.md",
     "README.md",
     "PocketOperator/Knobs_PO-128.md",
     "PocketOperator/_TO-LEARN.md",
@@ -129,8 +131,6 @@
     "PocketOperator/ParameterLocking.md",
     "Digitone/MakeNewSound.md",
     "PocketOperator/SetVibrato.md",
-    "Definitions/ParameterLocking.md",
-    "PocketOperator/Untitled 1.md",
-    "PocketOperator/PO-128_Overview.md"
+    "Definitions/ParameterLocking.md"
   ]
 }
