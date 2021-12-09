@@ -1,6 +1,8 @@
 #data-structures #graphql
 
 # Connection
+[Source](https://relay.dev/graphql/connections.htm)
+
 This is a data structure to traverse a graph
 The naming convention is `<Thing>Connection`
 Example using Pokemon Cards: `PokemonCardConnection`
