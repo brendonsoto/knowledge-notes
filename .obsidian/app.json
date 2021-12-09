@@ -10,5 +10,6 @@
   "newLinkFormat": "absolute",
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
-  "promptDelete": false
+  "promptDelete": false,
+  "smartIndentList": true
 }
