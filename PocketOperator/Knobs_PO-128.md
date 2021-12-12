@@ -8,23 +8,25 @@
 - **knob B:** [[PocketOperator/ChangeEnvelope|release]]
 
 ## With the bpm button held
-[[PocketOperator/SetSwing]]
+[[PocketOperator/SetSwing|Set swing]]
 
 ## With the glide button held
-[[PocketOperator/SetVibrato]]
+[[PocketOperator/SetVibrato|Set vibrato]]
 
 ## With the pattern button held
-[[PocketOperator/Transpose]]
+[[PocketOperator/Transpose|Transpose]]
 
 ## With the sound button held
-[[PocketOperator/SetMelodyOrBassVolume]]
+[[PocketOperator/SetMelodyOrBassVolume|Set melody or bass volume]]
 
 ## With the write button held
-#to-do 
+While playing a pattern:
+[[PocketOperator/ParameterLocking|Parameter locking]]
+
+Holding the **write** button and messing with the knobs doesn't do anything. Same results as [[PocketOperator/Knobs_PO-128#With no buttons held|with no buttons held]]
 
 ## With write mode active
-#to-do 
-
+Nothing unless the pattern is playing. Then it's [[PocketOperator/ParameterLocking|parameter locking]]
 
 ## When batteries are inserted
 The clock icon flashes and the knobs control how to set the time
