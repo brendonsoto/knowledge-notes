@@ -14,6 +14,12 @@ For what parameter locking means see here: [[PocketOperator/_Definitions#Paramet
 - press **play**
 - hold **fx** and press 1-16 to apply a fx to a step
 
+## Set Glide for steps
+- press **write**
+- to **set glide up** on a note, hold a lit step *and* press **glide**
+- to **set glide down** on a note, hold an *unlit* step *and* press **glide**
+  - the previous note *does not* need to have a glide up step enabled
+
 ## Notes
 - Cannot parameter lock vibrato stuff
 
