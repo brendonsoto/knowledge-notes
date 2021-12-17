@@ -67,11 +67,111 @@ How is this helpful?
 - another way to destructur is by using `variable.index`
   - example: `let y = tup.1; // 2.2`
   
-  #### Array
-  # YOU LEFT OFF HERE
+#### Array
+- all values *must* have the same type
+- arrays have fixed lengths
+  - Vectors are better suited for varied size
+- **syntax**: `let a = [1, 2, 3]`
+- use arrays when you know you're working with a limited set
+- **type**: `let a: [u32; 3] = [1, 2, 3]`
+- you can initialize an array with *all default values* by using `[<default-val>; <length>]`
+  - i.e. `let threeZeroes = [0; 3]`
+- accessing elements is the same as in any lang, `a[0]`
+
+## Functions
+- **syntax:** `fn function_name() { ... }`
+- snake_case
+- parameters are like other langs, add them in the parens
+- expressions can be written without semicolons at the end of the lines
+- *return values* can be typed using `->`
+  - i.e. `fn mult_by_two(x: u32) -> u32`
+  
+An example of an expression *and* return type:
+```
+fn five() -> i32 {
+  5
+ }
+ ```
+ 
+ ## Comments
+ - **syntax:** `// this is a comment`
+ - **idiomatic rust:** put the comment above the line you're commenting on
+ 
+ ## Control Flow
+ - `if` / `else` statements like in most other langs
+ - the condition *must* be a boolean expression -- no auto-typing/guessing (think JS)
+ - `else if` to chain multiple
+ - the contents in the `if/else` blocks are sometimes called **arms**
+ - `if` is an expression so it can be used as the value of a `let` statement
+   - the types of the two blocks *must* be the same
+
+```rust
+let x = if (3 > 5) {
+  "3 is greater than 5"
+} else {
+  "3 is lesser than 5"
+}; // Note the semicolon
+```
+
+## Repetition with Loops
+### loop
+```rust
+loop {
+  println!("looping forever!");
+}
+```
+- use `break` to break a loop
+- `loop` is useful when you're running an operation that may fail
+- `break` may be accompanied by a value to return from the loop
+
+Example from the book:
+```rust
+fn main() {
+    let mut counter = 0;
+
+    let result = loop {
+        counter += 1;
+
+        if counter == 10 {
+            break counter * 2;
+        }
+
+    };
+
+    println!("The result is {}", result);
+}
+```
+
+### while
+```rust
+while condition {
+  // do stuff
+}
+```
+
+### for
+```rust
+fn main() {
+    let a = [10, 20, 30, 40, 50];
+
+    for element in a.iter() {
+         println!("the value is: {}", element);
+    }
+}
+```
+
+### Side bits
+- there's a concept called *range* which generates a listing of numbers, similar to haskell
+  - `(1..10) // from 1-10`
 
 ## Quotes
 > “There are multiple trade-offs to consider in addition to the prevention of bugs. For example, in cases where you’re using large data structures, mutating an instance in place may be faster than copying and returning newly allocated instances. With smaller data structures, creating new instances and writing in a more functional programming style may be easier to think through, so lower performance might be a worthwhile penalty for gaining that clarity.”
+
+On [arrays](#array)
+> “Arrays are useful when you want your data allocated on the stack rather than the heap”
+
+I like their statement on *statements* and *expressions*
+> “Statements are instructions that perform some action and do not return a value. Expressions evaluate to a resulting value.”
 
 ## Questions
 ### Can you ignore values when pattern matching?
