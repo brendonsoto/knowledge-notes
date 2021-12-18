@@ -1,4 +1,9 @@
-#adhd #motivation #brain-hacks
+---
+aliases: 
+created: 2021-12-09, 9:34:21 am (Thursday, December 9th)
+updated: 2021-12-15, 8:36:16 am (Wednesday, December 15th)
+---
+#adhd #motivation #brain-hacks #how-to-adhd
 
 "Motivation Deficit Disorder"
 

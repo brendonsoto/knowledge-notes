@@ -1,4 +1,9 @@
-#adhd #stimulation
+---
+aliases: 
+created: 2021-12-09, 9:23:17 am (Thursday, December 9th)
+updated: 2021-12-15, 8:36:12 am (Wednesday, December 15th)
+---
+#adhd #stimulation #how-to-adhd
 
 # How to Give Your Brain the Stimulation It Needs
 [source](https://www.youtube.com/watch?v=-6WCkTwW6xg)
@@ -29,7 +34,7 @@ Looks like our "Free Dopamine" jar
   - How to make things more engaging
 - Specials
   - Things for once in a while
-  
+
 ### Step 2: Omit
 - omit any items that aren't available at the moment
 
@@ -49,4 +54,4 @@ Make it seem more engaging/enticing by adding stuff that will make you look at i
 Guest mentioned you "feel" the difference physically as a warning signal
 
 ## Related
-- 
+-
