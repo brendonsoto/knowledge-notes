@@ -1,4 +1,9 @@
-#obsidian #how-to 
+---
+aliases: 
+created: 2021-12-13, 8:33:17 am (Monday, December 13th)
+updated: 2021-12-14, 8:27:34 am (Tuesday, December 14th)
+---
+#obsidian #how-to
 
 # Obsidian Links
 ## Syntax
@@ -18,3 +23,4 @@ Here's a real example to [[Obsidian/Links#Syntax|this very section]]!
   - Press `#` to look for headings
   - Press `tab` to insert the text of the top result
   - Press `|` to enter in you text
+- You can also link using aliases by replacing the `<page>` section with the alias
