@@ -4,12 +4,13 @@
   "foldHeading": true,
   "foldIndent": true,
   "useTab": false,
-  "tabSize": 2,
+  "tabSize": 4,
   "vimMode": true,
   "emacsyKeys": false,
   "newLinkFormat": "absolute",
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
   "promptDelete": false,
-  "smartIndentList": true
+  "smartIndentList": true,
+  "autoConvertHtml": false
 }
