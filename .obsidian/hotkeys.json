@@ -26,7 +26,7 @@
   "editor:follow-link": [
     {
       "modifiers": [
-        "Mod"
+        "Ctrl"
       ],
       "key": "Enter"
     }
@@ -41,5 +41,75 @@
     }
   ],
   "editor:open-search-replace": [],
-  "editor:toggle-checklist-status": []
+  "editor:toggle-checklist-status": [],
+  "editor:delete-paragraph": [],
+  "workspace:edit-file-title": [],
+  "editor:insert-link": [],
+  "editor:open-link-in-new-leaf": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "Enter"
+    }
+  ],
+  "outline:open-for-current": [],
+  "switcher:open": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "P"
+    }
+  ],
+  "outline:open": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "O"
+    }
+  ],
+  "editor:focus-top": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "K"
+    }
+  ],
+  "editor:focus-bottom": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "J"
+    }
+  ],
+  "editor:focus-left": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "H"
+    }
+  ],
+  "editor:focus-right": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "L"
+    }
+  ],
+  "editor:fold-all": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "Z"
+    }
+  ]
 }
