@@ -1,6 +1,6 @@
 {
   "spellcheck": true,
-  "readableLineLength": false,
+  "readableLineLength": true,
   "foldHeading": true,
   "foldIndent": true,
   "useTab": false,
@@ -12,5 +12,7 @@
   "newFileLocation": "current",
   "promptDelete": false,
   "smartIndentList": true,
-  "autoConvertHtml": false
+  "autoConvertHtml": false,
+  "legacyEditor": false,
+  "livePreview": true
 }
