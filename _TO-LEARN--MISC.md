@@ -1,7 +1,7 @@
 ---
 aliases: 
 created: 2021-12-09, 9:48:17 am (Thursday, December 9th)
-updated: 2022-01-03, 8:06:10 pm (Monday, January 3rd)
+updated: 2022-01-04, 3:49:50 pm (Tuesday, January 4th)
 ---
 #to-do
 
@@ -23,3 +23,6 @@ updated: 2022-01-03, 8:06:10 pm (Monday, January 3rd)
     - plugins:
         - cmp
         - luasnip
+        - emmett
+        - auto-formatting (w/ LSP?)
+        - go-to error (not sure if this is a Trouble thing)
