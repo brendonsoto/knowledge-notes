@@ -1,4 +1,9 @@
-#how-to #digitone 
+---
+aliases: 
+created: 2021-12-08, 8:45:46 am (Wednesday, December 8th)
+updated: 2022-01-10, 12:25:17 pm (Monday, January 10th)
+---
+#how-to #digitone
 
 # How to Load a Sound
 
@@ -15,3 +20,6 @@
 - find your sound
 - press the right key
 - select "IMPORT TO TRK"
+
+## Related
+- [[Music/Digitone/MakeNewSound]]

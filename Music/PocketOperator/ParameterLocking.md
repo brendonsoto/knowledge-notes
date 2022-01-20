@@ -1,7 +1,12 @@
+---
+aliases: 
+created: 2021-12-09, 8:52:09 am (Thursday, December 9th)
+updated: 2022-01-10, 12:11:23 pm (Monday, January 10th)
+---
 #how-to #pocket-operator
 
 # How to do Parameter Locking
-For what parameter locking means see here: [[PocketOperator/_Definitions#Parameter Locking]]
+For what parameter locking means see here: [[Music/PocketOperator/_Definitions#Parameter Locking]]
 
 *Note: This can be done while playing a pattern too.*
 
@@ -24,4 +29,4 @@ For what parameter locking means see here: [[PocketOperator/_Definitions#Paramet
 - Cannot parameter lock vibrato stuff
 
 ## Related
-[[PocketOperator/ClearParameterLock]]
+- [[Music/PocketOperator/ClearParameterLock]]

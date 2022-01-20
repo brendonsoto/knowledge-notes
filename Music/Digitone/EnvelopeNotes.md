@@ -1,3 +1,8 @@
+---
+aliases: 
+created: 2021-12-08, 8:51:59 am (Wednesday, December 8th)
+updated: 2022-01-10, 12:25:02 pm (Monday, January 10th)
+---
 #digitone #sound-design
 
 # Envelope Notes
@@ -31,10 +36,14 @@ Here's a rough guestimate to what the values in the table below quantify to:
      <tr>
       <td>Medium</td>
       <td>25 lt x lt 50</td>
-    </tr>   
+    </tr>
      <tr>
       <td>Slow</td>
       <td>50 gte x</td>
-    </tr>   
+    </tr>
   </tbody>
 </table>
+
+## Related
+- [[Music/Digitone/EditExistingSound]]
+- [[Music/Digitone/MakeNewSound]]
