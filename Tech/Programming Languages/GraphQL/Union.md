@@ -1,4 +1,9 @@
-#graphql #data-structures #types 
+---
+aliases: 
+created: 2021-12-09, 1:49:05 pm (Thursday, December 9th)
+updated: 2022-01-10, 12:30:01 pm (Monday, January 10th)
+---
+#graphql #data-structures #types
 
 # Union
 [source](https://spec.graphql.org/June2018/#sec-Unions)
@@ -27,3 +32,7 @@ type SearchQuery {
 ```
 
 So `SearchResult` can be *either* a `Photo` *or* a `Person`
+
+## Related
+- [[Tech/Programming Languages/GraphQL/Interface]]
+- [[Tech/Programming Languages/GraphQL/Object]]

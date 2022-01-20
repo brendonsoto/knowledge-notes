@@ -21,5 +21,5 @@ That's where the `@key` directive comes in.
 That's not to say other types can't extend it.
 
 ## Related
-- [[GraphQL/Federation/Directives/extends]]
-- [[GraphQL/Federation/Directives/external]]
+- [[Tech/Programming Languages/GraphQL/Federation/Directives/extends]]
+- [[Tech/Programming Languages/GraphQL/Federation/Directives/external]]

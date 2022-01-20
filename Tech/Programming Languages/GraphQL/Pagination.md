@@ -1,7 +1,7 @@
 ---
 aliases: cursor-based-pagination Connections-pattern
 created: 2021-12-22, 11:11:57 am (Wednesday, December 22nd)
-updated: 2021-12-23, 8:47:20 am (Thursday, December 23rd)
+updated: 2022-01-10, 12:29:11 pm (Monday, January 10th)
 ---
 #graphql #best-practices
 
@@ -15,7 +15,7 @@ Must have these types (can have others if the designer wants):
 
 ## Types
 ### Edge type
-In the context of GraphQL and the Connections pattern an edge type is an [[GraphQL/Object]] that must have the following properties:
+In the context of GraphQL and the Connections pattern an edge type is an [[Tech/Programming Languages/GraphQL/Object]] that must have the following properties:
 - `node`
 - `cursor`
 
@@ -46,7 +46,7 @@ Any `Connection` type must include arguments for either *forward* pagination or 
 - `first`
     - non-negative integer
 - `after`
-    - [[GraphQL/Pagination#Cursor type|cursor]]
+    - [[Tech/Programming Languages/GraphQL/Pagination#Cursor type|cursor]]
 
 The idea is to get the `first` X edges `after` cursor A.
 
@@ -54,7 +54,7 @@ The idea is to get the `first` X edges `after` cursor A.
 - `last`
     - non-negative integer
 - `before`
-    - [[GraphQL/Pagination#Cursor type|cursor]]
+    - [[Tech/Programming Languages/GraphQL/Pagination#Cursor type|cursor]]
 
 You get the idea.
 
@@ -68,7 +68,7 @@ According to the [spec](https://relay.dev/graphql/connections.htm#sec-Edge-order
 
 So what does this really mean?
 
-I like to think of it as a GraphQL resolver asking a DB for sorted data and then applying the pagination [[GraphQL/Pagination#Algorithm|algorithm]].
+I like to think of it as a GraphQL resolver asking a DB for sorted data and then applying the pagination [[Tech/Programming Languages/GraphQL/Pagination#Algorithm|algorithm]].
 
 Let's think about it like this.
 GraphQL uses resolvers to get data, right?
@@ -93,3 +93,6 @@ Haven't been able to find a solid answer
     - This made the concept of cursor click for me. I got the idea that it's just a marker and the idea that it doesn't hold any "meaning", but I think it kind of does. The cursor helps identify where you are in a set of data. It also can be used for defining boundaries for the sub-set of the dataset you're working with. It's like a `Map` in JS; keys are cursors
 - https://www.youtube.com/watch?v=WUICbOOtAic
     - this is a nice overview between offset and cursor-based pagination w/o GraphQL
+
+    ## Related
+    - [[Tech/DataStructures/GraphConnection]]

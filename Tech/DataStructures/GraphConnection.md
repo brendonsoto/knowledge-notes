@@ -1,3 +1,8 @@
+---
+aliases: 
+created: 2021-12-07, 10:01:07 pm (Tuesday, December 7th)
+updated: 2022-01-10, 12:29:02 pm (Monday, January 10th)
+---
 #data-structures #graphql
 
 # Connection
@@ -14,3 +19,7 @@ Example using Pokemon Cards: `PokemonCardConnection`
   - seems to communicate current position in the graph
 - nodes:
   - seems to communicate all possibilities
+
+  ## Related
+  - [[Tech/DataStructures/Graph]]
+  - [[Tech/Programming Languages/GraphQL/Pagination|cursor-based-pagination Connections-pattern]]

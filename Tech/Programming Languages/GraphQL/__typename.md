@@ -7,4 +7,4 @@ updated: 2021-12-21, 4:22:18 pm (Tuesday, December 21st)
 
 # `__typename`
 Returns the name of the type.
-Useful in cases where you're querying against a [[GraphQL/Union|union]] and/or [[GraphQL/Interface|interface]]
+Useful in cases where you're querying against a [[Tech/Programming Languages/GraphQL/Union|union]] and/or [[Tech/Programming Languages/GraphQL/Interface|interface]]

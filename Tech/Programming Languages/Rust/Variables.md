@@ -1,4 +1,9 @@
-#to-do 
+---
+aliases: 
+created: 2021-12-13, 7:59:35 am (Monday, December 13th)
+updated: 2021-12-13, 8:06:40 am (Monday, December 13th)
+---
+#to-do
 
 # Variables
 

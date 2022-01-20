@@ -1,3 +1,8 @@
+---
+aliases: 
+created: 2021-12-09, 11:44:16 am (Thursday, December 9th)
+updated: 2022-01-10, 12:30:52 pm (Monday, January 10th)
+---
 #graphql #data-structures #types
 
 # Interface
@@ -33,7 +38,7 @@ type Contact {
 ```
 
 Why?
-So we can query on fields we know exist across any type that implements that interface 
+So we can query on fields we know exist across any type that implements that interface
 So we can write queries like
 ```
 // Generic
@@ -62,3 +67,7 @@ From [the GraphQL Spec](https://spec.graphql.org/June2018/#sec-Interfaces)
 > GraphQL interfaces represent a list of named fields and their arguments. GraphQL objects can then implement these interfaces which requires that the object type will define all fields defined by those interfaces.
 
 > Fields which yield an interface are useful when one of many Object types are expected, but some fields should be guaranteed.
+
+## Related
+- [[Tech/Programming Languages/GraphQL/Union]]
+- [[Tech/Programming Languages/GraphQL/Object]]
