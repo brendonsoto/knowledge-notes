@@ -1,22 +1,14 @@
 {
-  "collapse-filter": true,
-  "search": "tag:#to-do",
+  "collapse-filter": false,
+  "search": "path:Tech/JavaScript/NestJS tag:#to-do",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [
-    {
-      "query": "tag:#digitone tag:#how-to",
-      "color": {
-        "a": 1,
-        "rgb": 14147666
-      }
-    }
-  ],
-  "collapse-display": true,
-  "showArrow": false,
+  "collapse-color-groups": false,
+  "colorGroups": [],
+  "collapse-display": false,
+  "showArrow": true,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
@@ -25,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.8192011862577522,
-  "close": false
+  "scale": 1.0464975371455365,
+  "close": true
 }
