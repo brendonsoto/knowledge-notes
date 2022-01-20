@@ -1,7 +1,7 @@
 ---
 aliases: 
 created: 2021-12-15, 1:32:28 pm (Wednesday, December 15th)
-updated: 2021-12-15, 2:06:54 pm (Wednesday, December 15th)
+updated: 2022-01-10, 12:08:04 pm (Monday, January 10th)
 ---
 #adhd #how-to-adhd #project-management
 
@@ -28,3 +28,7 @@ Questions to ask when evaluating:
   - maybe think of schedule as a time-budget?
 
 Use the questions to determine if what you're getting *out* of a project is worth what you'll be putting *into* it
+
+## Related
+- [[ADHD/How To ADHD/How to Get Stuff Done When You Have ADHD]]
+- [[ADHD/How To ADHD/How to NOT NEED as Much Motivation to do the Thing]]
