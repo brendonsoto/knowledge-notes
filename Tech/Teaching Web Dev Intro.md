@@ -1,7 +1,7 @@
 ---
 aliases: 
 created: 2021-12-28, 7:53:31 pm (Tuesday, December 28th)
-updated: 2021-12-30, 11:09:30 am (Thursday, December 30th)
+updated: 2022-01-03, 8:19:38 pm (Monday, January 3rd)
 ---
 We can explore concepts through building a site iteratively. One thought that comes to me is a music site. There can be a home page with static content, a page to show songs and add to a "cart", a page to add a song through a form, and a "checkout" page. Song here will just be the metadata for a song, not the actual audio itself. We'll end up rebuilding pieces of it to explore different approaches.
 
