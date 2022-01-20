@@ -24,7 +24,7 @@ Taste-wise, pretty dang good! No oats still stiff or seeming under-cooked
 The oats are still very watery.
 The water line did go down a bit, about 1/4th of the white markers.
 
-![[image.jpg]]
+![[Food/zojirushi/image.jpg]]
 
 Taste was good!
 
@@ -35,7 +35,7 @@ Same as others but with water at 1-1/4ish using the white markers (the 1 was not
 Oats were still under water a bit.
 The reduction in the water line looks the same as before: about 1/4
 
-![[image 1.jpg]]
+![[Food/zojirushi/image 1.jpg]]
 
 ## Try 4
 - 1/2 cup of oats
@@ -49,7 +49,7 @@ Line did not move much
 However, barely any water came out when i tried straining.
 Perhaps this is the ticket!
 
-![[image 2.jpg]]
+![[Food/zojirushi/image 2.jpg]]
 
 ## Try 5
 Trying based off of the packaging which suggests a 3:1 ratio of water to oats.
@@ -58,7 +58,7 @@ Still porridge setting and a timer for 07:00 starting at 23:53.
 ### Result
 The water wasnt completely over the oats!
 
-![[image 3.jpg]]
+![[Food/zojirushi/image 3.jpg]]
 
 At the same time, the oats don't look as fluffy as previous times.
 Taste was good too!
