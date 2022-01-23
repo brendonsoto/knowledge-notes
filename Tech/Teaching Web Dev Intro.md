@@ -239,3 +239,9 @@ I'm thinking of structuring it:
     - basic comics table
     - table for comics to users
     - fetching from the server instead
+
+Exercises:
+- make a page to add news bits
+- make a "detail view" modal on the comics page
+- filters for comics
+- add a "popular" icon for most downloaded comics
