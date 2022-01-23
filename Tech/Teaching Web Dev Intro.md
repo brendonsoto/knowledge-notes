@@ -164,3 +164,78 @@ Things to review:
 - flexbox
 - absolute positioning
 
+## Taking an alternative approach
+Let me think of this in terms of capabilities.
+What's a simple full feature project that's releasable?
+A blog/bio page?
+Let me role back the releasable part for now.
+
+I think a nice progression would be
+- simple static site/s based off of existing sites (no functionality)
+- a multi-page web site (no func)
+- React / templates
+- forms
+- servers
+- database
+- using javascript for live interactions (e.g. updating cost on adding/removing items, menu bar navigations, accordions?)
+
+Im thinking every week make a site in addition to the bigger project.
+Maybe end up building a comic selling and uploading site.
+
+Was looking at Marvel, DC, Image, and Comixology sites.
+Cross out Comixology because its basically Amazon.
+The rest of them are pretty similar.
+- mobile view has header with:
+    - ham burger menu
+    - title or logo in middle
+    - search bar
+- some carousel at the top
+- highlighted content
+- news-ish area like the NYTimes
+- footer
+- comics page
+
+The *biggest* takeaways are being able to:
+- Render static (hard-coded) content
+- Fetch data
+- Render dynamic content
+- Communicate errors
+- Send data
+- Make a simple server that can read and write to a database
+
+I'm thinking of structuring it:
+- make the home page but leave out the news part
+    - start with github.io page as "prod"
+    - practicing base HTML and CSS skills
+    - introduce React and the idea of components to rebuild stuff in React
+    - reinforce thinking of releases with features/content to think of the "why" behind work
+- introduce fetching via the news section
+    - light intro to fetch and JSON
+        - make json data file
+        - try fetching it to show you need a server
+        - use simple python command to spin up a server for the files
+    - using for loops in React to render multiple similar things
+- make the comics section
+    - intro to react router
+    - make new page
+    - make comics.json
+    - render comics
+        - intro to grid
+- make the checkout section
+    - no server (idea is to use in memory/state for now)
+    - make a form for payment details
+    - validation
+- make a page to show "My Comics"
+    - make data structure  include the comics and whether they're  purchased or not
+- introduce the idea of "users"
+    - use local state for now
+    - login page
+    - log out
+- introduce db
+    - start by pointing out when you restart the server or the site, data is lost
+    - basic users table
+        - simple hashing for now
+    - basic news table
+    - basic comics table
+    - table for comics to users
+    - fetching from the server instead
