@@ -1,7 +1,7 @@
 ---
 aliases: 
 created: 2022-01-18, 3:03:23 pm (Tuesday, January 18th)
-updated: 2022-01-18, 3:15:46 pm (Tuesday, January 18th)
+updated: 2022-02-28, 8:01:26 am (Monday, February 28th)
 ---
 ZooKeeper is an open-source server to help manage and coordinate distributed systems.
 
