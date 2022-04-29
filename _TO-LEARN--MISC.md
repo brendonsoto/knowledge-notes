@@ -1,7 +1,7 @@
 ---
 aliases: 
 created: 2021-12-09, 9:48:17 am (Thursday, December 9th)
-updated: 2022-01-04, 3:49:50 pm (Tuesday, January 4th)
+updated: 2022-04-28, 7:55:20 pm (Thursday, April 28th)
 ---
 #to-do
 
@@ -26,3 +26,7 @@ updated: 2022-01-04, 3:49:50 pm (Tuesday, January 4th)
         - emmett
         - auto-formatting (w/ LSP?)
         - go-to error (not sure if this is a Trouble thing)
+
+Electricity + Music
+- How to determine how much wattage is needed to move a speaker
+    - context: thinking about making my own 3" guitar amp
