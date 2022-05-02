@@ -11,5 +11,5 @@ Example: `uuid: ID! @external`
 The `@external` directive communicates the field is an existing field on another type
 
 ## Related
-- [[Tech/Software/Programming Languages/GraphQL/Federation/Directives/extends]]
-- [[Tech/Software/Programming Languages/GraphQL/Federation/Directives/key]]
+- [[Tech/GraphQL/Federation/Directives/extends]]
+- [[Tech/GraphQL/Federation/Directives/key]]

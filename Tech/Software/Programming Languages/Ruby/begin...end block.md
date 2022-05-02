@@ -29,6 +29,6 @@ end
 
 ## Related
 Looked up docs on this alongside:
-- [[Tech/Software/Programming Languages/Ruby/attr accessor reader writer]]
-- [[Tech/Software/Programming Languages/Ruby/Hash]]
-- [[Tech/Software/Programming Languages/Ruby/private attributes]]
+- [[Tech/Ruby/attr accessor reader writer]]
+- [[Tech/Ruby/Hash]]
+- [[Tech/Ruby/private attributes]]

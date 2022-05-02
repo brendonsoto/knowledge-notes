@@ -1,7 +1,7 @@
 ---
 aliases: 
 created: 2022-01-07, 1:12:35 pm (Friday, January 7th)
-updated: 2022-01-07, 1:24:36 pm (Friday, January 7th)
+updated: 2022-03-24, 10:54:37 am (Thursday, March 24th)
 ---
 #graphql #federation
 
@@ -20,6 +20,9 @@ That's where the `@key` directive comes in.
 
 That's not to say other types can't extend it.
 
+**NOTE:** Interfaces and Unions *cannot* be interfaces.
+[Source](https://www.apollographql.com/docs/federation/entities/#defining-entities) (look at the note underneath the code example)
+
 ## Related
-- [[Tech/Software/Programming Languages/GraphQL/Federation/Directives/extends]]
-- [[Tech/Software/Programming Languages/GraphQL/Federation/Directives/external]]
+- [[Tech/GraphQL/Federation/Directives/extends]]
+- [[Tech/GraphQL/Federation/Directives/external]]
