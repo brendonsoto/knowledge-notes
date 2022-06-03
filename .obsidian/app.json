@@ -14,5 +14,6 @@
   "newLinkFormat": "absolute",
   "autoConvertHtml": false,
   "legacyEditor": false,
-  "livePreview": true
+  "livePreview": true,
+  "strictLineBreaks": true
 }
