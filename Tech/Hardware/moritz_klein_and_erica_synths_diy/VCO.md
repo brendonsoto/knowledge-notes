@@ -1,7 +1,7 @@
 ---
 aliases: 
 created: 2022-06-01, 8:54:06 am (Wednesday, June 1st)
-updated: 2022-06-01, 6:36:15 pm (Wednesday, June 1st)
+updated: 2022-06-03, 8:59:57 am (Friday, June 3rd)
 ---
 ## Checking components
 
@@ -45,7 +45,13 @@ If so, how is the frequency of a pulse wave determined?
 Or is a capacitor involved in both and a resistor is used to control the speed of the capacitor discharging?
 
 ### The Oscillator Core
-I really like the analogy of a capacitor being like a balloon,
+I really like the analogy of a capacitor being like a balloon.
+
+So a **Schmitt Trigger Inverter** is a doo-hickey that has two inputs: one for sensing an input voltage and another that's connected to another voltage source (like power?).
+Inside the component the input voltage is checked against two thresholds, a high point and a low point.
+When the input voltage changes from one of those thresholds to another the *output* of the inverter changes to either a high voltage or a low voltage (sourced from the other input!).
+I'm not super sure if I got this correct...
+
 
 ## Questions
 ### Why are there different types of resistors?
