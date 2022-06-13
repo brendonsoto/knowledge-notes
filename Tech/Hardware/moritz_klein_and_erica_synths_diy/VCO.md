@@ -1,7 +1,7 @@
 ---
 aliases: 
 created: 2022-06-01, 8:54:06 am (Wednesday, June 1st)
-updated: 2022-06-03, 8:59:57 am (Friday, June 3rd)
+updated: 2022-06-12, 8:07:31 pm (Sunday, June 12th)
 ---
 ## Checking components
 
@@ -52,6 +52,19 @@ Inside the component the input voltage is checked against two thresholds, a high
 When the input voltage changes from one of those thresholds to another the *output* of the inverter changes to either a high voltage or a low voltage (sourced from the other input!).
 I'm not super sure if I got this correct...
 
+## Building the Core
+When using an IC it's favorable to *connect unused inputs to ground* in order to **prevent picking up static noise**.
+Static noise may make the IC act unexpectedly.
+
+I also like the explanation for why you can't just plug in an audio socket at this point to hear the oscillation.
+Picturing the addition of the socket as another path for electricity to flow that is more of a "path of least resistance" than the capacitor and thus there's no oscillation makes sense.
+
+## Buffering, Coupling, Listening
+Buffers are like Schmitt Triggers in the sense that they both have *voltage sensors*.
+A **buffer** mirrors its input voltage level using the voltage sensor input.
+Since the buffer uses a voltage sensor, no current flows through it and as a result they're great for representing voltage without possibly interfering with the voltage.
+
+I got sound!
 
 ## Questions
 ### Why are there different types of resistors?
@@ -61,3 +74,5 @@ I'm not super sure if I got this correct...
 ### How is it that a diode can prevent current in a direction?
 
 ### What exactly is a Schmitt Trigger Inverter?
+
+### Why does static noise in some inputs of an IC impact other inputs/outputs/operations?
