@@ -1,11 +1,11 @@
 {
-  "collapse-filter": false,
-  "search": "path:Tech/JavaScript/NestJS tag:#to-do",
+  "collapse-filter": true,
+  "search": "",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [],
   "collapse-display": false,
   "showArrow": true,
@@ -17,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.0464975371455365,
-  "close": true
+  "scale": 0.48312723325440465,
+  "close": false
 }

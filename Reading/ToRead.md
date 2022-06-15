@@ -1,0 +1,58 @@
+---
+aliases: 
+created: 2022-06-15, 2:55:23 pm (Wednesday, June 15th)
+updated: 2022-06-15, 2:55:23 pm (Wednesday, June 15th)
+---
+https://collinmathilde.medium.com/how-to-find-your-zone-of-genius-68378d493320
+https://thenewstack.io/docker-basics-how-to-use-dockerfiles/
+https://docker-curriculum.com/
+https://iximiuz.com/en/posts/containers-learning-docker-with-docker/?utm_source=abyteofcodingnewsletter
+https://pact.io/
+https://haskell.mooc.fi/
+https://zachahn.com/posts/1650329681
+https://timothygu.me/es-howto/
+https://www.researchgate.net/profile/Juergen-Muench/publication/254040906_Developer_Experience_Concept_and_Definition/links/5445479f0cf2d62c304d7b95/Developer-Experience-Concept-and-Definition.pdf?origin=publication_detail
+https://acko.net/blog/react-the-missing-parts/
+https://www.smashingmagazine.com/2022/02/web-frameworks-guide-part2/
+https://www.gimtec.io/articles/ebnf/
+https://www.rudderstack.com/blog/how-we-reduced-startup-time-by-80-with-webpack/
+https://blog.openreplay.com/exploring-sveltekit-in-2022-by-building-a-portfolio-website
+https://tratt.net/laurie/blog/2022/practising_programming.html?utm_source=abyteofcodingnewsletter
+https://webvision.mozilla.org/full/
+https://austingil.com/resilient-applications-progressive-enhancement/?utm_source=abyteofcodingnewsletter
+https://frontend.turing.edu/lessons/module-3/advanced-react-hooks.html
+https://www.joshwcomeau.com/react/file-structure/
+https://2ality.com/2022/03/naming-conflicts.html
+https://dev.to/this-is-learning/conquering-javascript-hydration-a9f
+https://2ality.com/2022/03/type-annotations-first-look.html?utm_source=abyteofcodingnewsletter
+https://www.smashingmagazine.com/2022/02/testing-pipeline-101-frontend-testing/
+https://medium.com/doctave/how-google-twitter-and-spotify-built-a-culture-of-documentation-47a1ff22911
+https://getdx.com/best-practices/documentation-culture-engineering
+https://siraben.dev/2022/03/22/tree-sitter-linter.html
+https://oce.ovid.com/article/00005205-201804000-00004/HTML
+https://www.jofreeman.com/joreen/tyranny.htm
+https://about.gitlab.com/blog/2020/06/08/better-code-reviews/
+https://stackoverflow.blog/2019/09/30/how-to-make-good-code-reviews-better/
+https://google.github.io/eng-practices/review/reviewer/
+https://www.rubick.com/milestones-not-projects/
+https://islandofsignal.com/shrugged/
+https://www.thinkingmaps.com/products/thinking-maps/
+http://www.paulgraham.com/makersschedule.html
+https://larahogan.me/blog/when-to-delegate-when-to-say-no/
+https://www.biodigitaljazz.tech/p/how-to-influence-attitudes-on-your?s=r
+https://larahogan.me/blog/why-cant-they-just/
+https://pudding.cool/2022/02/plain/
+https://cpojer.net/posts/dependency-managers-dont-manage-your-dependencies
+https://www.heinrichhartmann.com/posts/writing/
+https://www.startpage.com/do/dsearch?query=best+times+for+live+coding+interview&cat=web&pl=ext-ff&language=english&extVersion=1.3.0
+  https://www.freecodecamp.org/news/coding-interviews-for-dummies-5e048933b82b/
+  https://bootcamp.northwestern.edu/blog/coding-interview-tips/
+  https://levelup.gitconnected.com/5-effective-tips-for-live-coding-interviews-1958193a9706
+https://pact.io/
+https://github.com/jashkenas/underscore
+https://github.com/douglascrockford/JSON-js/blob/master/json2.js
+https://www.graphql-modules.com/docs/get-started
+https://softwareengineering.stackexchange.com/questions/145055/are-there-guidelines-on-how-many-parameters-a-function-should-accept
+  https://sourcemaking.com/refactoring/introduce-parameter-object
+    https://sourcemaking.com/refactoring-course
+https://baymard.com/blog/line-length-readability
