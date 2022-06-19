@@ -1,7 +1,7 @@
 ---
 aliases: 
 created: 2022-06-01, 8:54:06 am (Wednesday, June 1st)
-updated: 2022-06-12, 8:07:31 pm (Sunday, June 12th)
+updated: 2022-06-19, 12:50:22 pm (Sunday, June 19th)
 ---
 ## Checking components
 
@@ -88,6 +88,30 @@ I also did hear the change in pitch from just touching the transistors.
 I also tried blowing on it to cool it down and noticed a change then too.
 This is really nice to have a hands on way of exploring these concepts.
 
+### Temperature Control
+NPN and PNP transistors can be used together to tackle *temperature problems*!
+The PNP transistor was introduced this time (NPN was for changing the frequency).
+
+I needed a refresher on why the NPN transistor was needed in the first place.
+It's to enable a linear change in voltage to produce an exponential change in voltage so the oscillator can span multiple octaves (using a 1V/Octave scaling).
+
+I was a little confused why the potentiometer and sequence audio jack were removed when introducing the PNP, but upon reflection I believe that was to isolate just the transistors working together.
+
+The PNP transistor was introduced as an **emitter follower** to be used with the NPN transistor to tackle the problem of the frequency changing when the temperature of the NPN transistor changes.
+When the NPN transistor heats up it "opens up more".
+The vagueness confused me.
+Somehow when heat is applied, more current comes out of the emitter of the NPN transistor which also implies an increase in voltage at its base.
+The PNP acts basically in the opposite way.
+As head is applied, the PNP transistor "closes up" and less current is outputted.
+
+On running the circuit, it was really interesting to hear the pitch rise and decrease as the result of touching the two transistors.
+
+Side:
+I believe what happens is the heat makes the particles move faster which means a slightly faster current and since there's an increase in current output more voltage is required to "match" so there's more of a draw at the base of the transistor.
+Then again, I have no idea what I'm talking about haha.
+
+### Tuning
+
 ## Questions
 ### Why are there different types of resistors?
 
@@ -98,3 +122,12 @@ This is really nice to have a hands on way of exploring these concepts.
 ### What exactly is a Schmitt Trigger Inverter?
 
 ### Why does static noise in some inputs of an IC impact other inputs/outputs/operations?
+
+### Why do transistors react differently when heat is applied?
+
+### Why does a PNP transistor have a slight increase in voltage in it's emitter?
+
+### How is it that a PNP transistor seems to balance its output at the emitter with its input at the base?
+I didn't understand the following:
+
+> You'll probably be surprised to hear that it doesn't really matter for our purposes. As long as there is some resistor there, everything should work out just fine. Because for a given voltage at the base, the relation between the resistor and the open-ness of the transistor is always going to be approximately the same – because if the resistor value is bigger, the transistor will automatically be more closed, and if it's smaller, the transistor will be more open. That's why the emitter follower is commonly referred to as a negative current feedback circuit – its pretty much always taming itself, so that the 1:1 relation between input and output voltage is upheld in most scenarios.
