@@ -66,6 +66,12 @@ Since the buffer uses a voltage sensor, no current flows through it and as a res
 
 I got sound!
 
+### Changing the Frequency
+A transistor can act as a kind of variable resistor.
+Transistors have a quality that allows a linear change in input voltage to be reflected as an exponential change in current.
+Neat!
+A resistor can be connected to the base of a transistor to ensure not too much current gets to the transistor.
+
 ## Questions
 ### Why are there different types of resistors?
 
