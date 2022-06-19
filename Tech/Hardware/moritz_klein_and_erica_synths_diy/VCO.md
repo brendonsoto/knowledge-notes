@@ -72,6 +72,22 @@ Transistors have a quality that allows a linear change in input voltage to be re
 Neat!
 A resistor can be connected to the base of a transistor to ensure not too much current gets to the transistor.
 
+### Sequences, Scaling and Offsets
+Voltage divider came in for scaling incoming voltages down!
+The section on "shifting the center" confused me.
+Oh!
+I think I get it now.
+I was confused on where the "constant voltage" source would be.
+I see now we're using the voltage going into the transistor's base as our constant voltage.
+The sequence voltage changes then are added on top of that voltage.
+
+I did not have a sequencer by but was able to kind of mimic it using it a photo-cell resistor.
+I attached the photo resistor basically where the sequencer input jack is.
+I was able to vary the pitch that way.
+I also did hear the change in pitch from just touching the transistors.
+I also tried blowing on it to cool it down and noticed a change then too.
+This is really nice to have a hands on way of exploring these concepts.
+
 ## Questions
 ### Why are there different types of resistors?
 
