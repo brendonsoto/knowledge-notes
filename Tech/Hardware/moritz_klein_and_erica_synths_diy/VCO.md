@@ -1,7 +1,7 @@
 ---
 aliases: 
 created: 2022-06-01, 8:54:06 am (Wednesday, June 1st)
-updated: 2022-06-20, 2:18:43 pm (Monday, June 20th)
+updated: 2022-06-20, 4:50:27 pm (Monday, June 20th)
 ---
 ## Checking components
 
@@ -133,6 +133,9 @@ At first I tried measuring the current in the circuit and was planning to use Oh
 I then realized that wouldn't really work since the voltage is fixed at 9V (ignoring that it drains over time).
 I also realized I misunderstood the voltage divider math and mixed it up with the parallel resistor formula.
 More lessons learned!
+
+### Temperature trouble... again?
+Skipped for now since I wouldn't have a way of really observing the change in output.
 
 
 ## Questions
