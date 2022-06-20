@@ -1,7 +1,7 @@
 ---
 aliases: 
 created: 2022-06-01, 8:54:06 am (Wednesday, June 1st)
-updated: 2022-06-19, 12:50:22 pm (Sunday, June 19th)
+updated: 2022-06-20, 2:18:43 pm (Monday, June 20th)
 ---
 ## Checking components
 
@@ -111,6 +111,29 @@ I believe what happens is the heat makes the particles move faster which means a
 Then again, I have no idea what I'm talking about haha.
 
 ### Tuning
+I didn't know precision trimmers could rotate many times!
+
+For the multi-voltage tuning from a sequencer section, I didn't have a sequencer like that so I resorted to making voltage dividers and am rather proud of the result!
+I used [this website](https://ohmslawcalculator.com/voltage-divider-calculator) for its voltage divider calculator and basically took a trial and error approach.
+I set the input and output voltages to 9V and 1V.
+I then got my multimeter and sampled a few of my resistors to get an idea of the possible values I have.
+Then I tried plugging it into the calculator to see if there's a possible match.
+I found one that would work if I had a sort of cascading voltage divider setup.
+The 2 values from the site that worked were 2.2k and 275.
+I didn't have 275, but I did have 2 557Ohm resistors so I figured that would work!
+I was very happy taking the measurement and seeing 0.975V on the multimeter when testing it out.
+Afterwards, I tried looking up some sort of calculator or chart for Volts to Hertz using the 1V/Octave standard.
+I couldn't find a chart or calculator but I did find a site saying 1V is middle C which is about 261.63Hz.
+I used some algebra to figure out what Hertz I would have from using my derived voltage: x/261.63 = 0.975.
+I got around 255ish so I plugged that into an online tone generator and tried tuning by ear.
+I see the value in having a power supply that can supply different voltages for sure now!
+
+I forgot to mention, I was a bit confused in determining the parallel series resistor set up.
+At first I tried measuring the current in the circuit and was planning to use Ohm's law to determine what resistor to use to get the appropriate voltage.
+I then realized that wouldn't really work since the voltage is fixed at 9V (ignoring that it drains over time).
+I also realized I misunderstood the voltage divider math and mixed it up with the parallel resistor formula.
+More lessons learned!
+
 
 ## Questions
 ### Why are there different types of resistors?
@@ -131,3 +154,8 @@ Then again, I have no idea what I'm talking about haha.
 I didn't understand the following:
 
 > You'll probably be surprised to hear that it doesn't really matter for our purposes. As long as there is some resistor there, everything should work out just fine. Because for a given voltage at the base, the relation between the resistor and the open-ness of the transistor is always going to be approximately the same – because if the resistor value is bigger, the transistor will automatically be more closed, and if it's smaller, the transistor will be more open. That's why the emitter follower is commonly referred to as a negative current feedback circuit – its pretty much always taming itself, so that the 1:1 relation between input and output voltage is upheld in most scenarios.
+
+
+# IDEAS
+## Web app with interactive voltage divider/electronics math tools
+Think calculating resistors in parallel/series but with sliders instead of just text boxes.
