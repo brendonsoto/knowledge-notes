@@ -1,7 +1,7 @@
 ---
 aliases: 
 created: 2022-06-01, 8:54:06 am (Wednesday, June 1st)
-updated: 2022-06-20, 4:52:52 pm (Monday, June 20th)
+updated: 2022-06-20, 5:03:34 pm (Monday, June 20th)
 ---
 ## Checking components
 
@@ -145,6 +145,12 @@ It's interesting seeing the comparator being used very directly/plainly here.
 It kind of stinks knowing the output isn't really observable unless an oscilloscope is used.
 I also don't get why the Pulse wave may potential blow out headphones right now.
 How can it be loud when the sawtooth is pretty tame?
+
+### CONTROLLING THE PULSE WIDTH WITH CV
+I wish this section had a little more details to it.
+I would've loved to read how the trial and error testing in picking the resistor value was done.
+I would've also loved to have a little more info on how knowing the input voltage values impacts resistor choice.
+Is it just calculating the current output from +/- 5V?
 
 ## Questions
 ### Why are there different types of resistors?
