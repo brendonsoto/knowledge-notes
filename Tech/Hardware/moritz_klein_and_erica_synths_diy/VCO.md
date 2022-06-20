@@ -1,7 +1,7 @@
 ---
 aliases: 
 created: 2022-06-01, 8:54:06 am (Wednesday, June 1st)
-updated: 2022-06-20, 4:51:09 pm (Monday, June 20th)
+updated: 2022-06-20, 4:52:52 pm (Monday, June 20th)
 ---
 ## Checking components
 
@@ -139,6 +139,12 @@ Skipped for now since I wouldn't have a way of really observing the change in ou
 
 ### FM Input and Fine Tuning
 Skipped for now since the section mentioned it was fine to.
+
+### Waveshaping: Sawtooth to Pulse
+It's interesting seeing the comparator being used very directly/plainly here.
+It kind of stinks knowing the output isn't really observable unless an oscilloscope is used.
+I also don't get why the Pulse wave may potential blow out headphones right now.
+How can it be loud when the sawtooth is pretty tame?
 
 ## Questions
 ### Why are there different types of resistors?
