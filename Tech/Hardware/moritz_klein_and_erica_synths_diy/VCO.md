@@ -1,7 +1,7 @@
 ---
 aliases: 
 created: 2022-06-01, 8:54:06 am (Wednesday, June 1st)
-updated: 2022-06-20, 4:50:27 pm (Monday, June 20th)
+updated: 2022-06-20, 4:51:09 pm (Monday, June 20th)
 ---
 ## Checking components
 
@@ -137,6 +137,8 @@ More lessons learned!
 ### Temperature trouble... again?
 Skipped for now since I wouldn't have a way of really observing the change in output.
 
+### FM Input and Fine Tuning
+Skipped for now since the section mentioned it was fine to.
 
 ## Questions
 ### Why are there different types of resistors?
