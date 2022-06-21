@@ -1,7 +1,7 @@
 ---
 aliases: 
 created: 2022-06-01, 8:54:06 am (Wednesday, June 1st)
-updated: 2022-06-20, 5:03:34 pm (Monday, June 20th)
+updated: 2022-06-20, 5:40:40 pm (Monday, June 20th)
 ---
 ## Checking components
 
@@ -152,6 +152,11 @@ I would've loved to read how the trial and error testing in picking the resistor
 I would've also loved to have a little more info on how knowing the input voltage values impacts resistor choice.
 Is it just calculating the current output from +/- 5V?
 
+### Output Volume Levels
+I wish a bit more info was given here to discuss why saw non-inverting amplifier was setup the way it is.
+I guess the resistors determine the gain it has?
+I also wish it talked a bit more on the 1k resistors for preventing short circuits?
+
 ## Questions
 ### Why are there different types of resistors?
 
@@ -172,6 +177,8 @@ I didn't understand the following:
 
 > You'll probably be surprised to hear that it doesn't really matter for our purposes. As long as there is some resistor there, everything should work out just fine. Because for a given voltage at the base, the relation between the resistor and the open-ness of the transistor is always going to be approximately the same – because if the resistor value is bigger, the transistor will automatically be more closed, and if it's smaller, the transistor will be more open. That's why the emitter follower is commonly referred to as a negative current feedback circuit – its pretty much always taming itself, so that the 1:1 relation between input and output voltage is upheld in most scenarios.
 
+
+### What is a short circuit and how does a resistor help guard against it?
 
 # IDEAS
 ## Web app with interactive voltage divider/electronics math tools
