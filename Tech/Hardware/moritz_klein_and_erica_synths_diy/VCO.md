@@ -1,7 +1,7 @@
 ---
 aliases: 
 created: 2022-06-01, 8:54:06 am (Wednesday, June 1st)
-updated: 2022-06-20, 5:40:40 pm (Monday, June 20th)
+updated: 2022-06-23, 12:42:52 pm (Thursday, June 23rd)
 ---
 ## Checking components
 
@@ -156,6 +156,14 @@ Is it just calculating the current output from +/- 5V?
 I wish a bit more info was given here to discuss why saw non-inverting amplifier was setup the way it is.
 I guess the resistors determine the gain it has?
 I also wish it talked a bit more on the 1k resistors for preventing short circuits?
+
+## Other observations
+### Erratic pitch
+Sometimes when changing one of the pots I noticed the oscillator's pitch fluctuating madly (think having an LFO modulating pitch randomly and another LFO modulating the rate of the first LFO also pretty randomly).
+
+I think this may be due to [[Tech/Hardware/Electronics - Problems/Parasitic Oscillation|parasitic oscillation]].
+
+I also wonder if perhaps there is some noise (like static electricity) from my breadboard since it is a bit old and not [cared for](https://electronics.stackexchange.com/questions/273589/how-can-i-diagnose-possible-problems-with-my-breadboards).
 
 ## Questions
 ### Why are there different types of resistors?
