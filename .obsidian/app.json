@@ -15,5 +15,6 @@
   "autoConvertHtml": false,
   "legacyEditor": false,
   "livePreview": true,
-  "strictLineBreaks": true
+  "strictLineBreaks": true,
+  "useMarkdownLinks": true
 }
