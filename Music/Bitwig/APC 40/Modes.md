@@ -1,30 +1,16 @@
 ---
 aliases: 
-created: 2022-04-06, 8:41:31 am (Wednesday, April 6th)
-updated: 2022-04-06, 9:24:18 am (Wednesday, April 6th)
+created: 2022-04-21, 6:38:47 pm (Thursday, April 21st)
+updated: 2022-04-21, 6:40:54 pm (Thursday, April 21st)
 ---
-By default, the APC 40's grid will be used as a MIDI controller to transmit notes.
-
-## How to...
-### Switch modes
-- Press and hold **Shift**
-- Look for the column of buttons under **Scene Launch** (to the right of the Clip Launch grid)
-- For _Session_ mode press the **first** pad
-- For _Note_ mode press the **first** pad
-- For _Drum_ mode press the **first** pad
-- For _Sequencer_ mode press the **first** pad
-- For _Raindrops_ mode press the **first** pad
-
-## Modes
-
 The different modes impact what the **Clip Launch/Session Overview** grid of pads/buttons do.
 
-### Session
+## Session
 
 This is to launch clips.
 The pads under will trigger the pads in Bitwig to play.
 
-### Note
+## Note
 
 This mode turns the grid into a midi-controller.
 *Note:* The layout is kind of weird.
@@ -39,5 +25,5 @@ While *In Key*, you can ascend the scale using the first three columns.
 While in *Chromatic*, you can ascend the scale/sequence using the first five columns.
 It's a bit weird.
 
-## Resources
-- https://github.com/git-moss/DrivenByMoss-Documentation/blob/master/Akai/Akai-APC40-APC40mkII.md
+## Related
+[[Music/Bitwig/APC 40/How to/Switch modes]]
