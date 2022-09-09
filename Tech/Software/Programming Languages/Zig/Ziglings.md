@@ -14,3 +14,9 @@ Going to use the "chapter" number as the subheadings and list what I've learned 
     - `@import` is a function whose return value somehow is the entire library.
         I guess it's like a name-spaced thing.
 - zig uses *lazy evaluation*
+
+---
+
+I stopped here because I simply forgot.
+I'm only on ex 7 now, but think noting every small thing I learned here wouldn't actually be useful for me as a reference.
+It may help with retaining the information, like moving it into long-term-ish memory, but that's not the point of this repo.
