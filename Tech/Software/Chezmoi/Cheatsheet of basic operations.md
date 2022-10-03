@@ -12,6 +12,7 @@ updated: 2022-01-13, 8:12:45 am (Thursday, January 13th)
 - **check** changes: `chezmoi diff`
 - **apply** changes: `chezmoi -v apply`
 - **save** changes: `chezmoi cd` then use git to commit changes
+- **prevent run script** from running again: `chezmoi `
 
 ## Related
 - [[Tech/Software/Chezmoi/How to apply your config to a new machine]]

@@ -3,6 +3,15 @@ aliases:
 created: 2022-06-30, 3:41:33 pm (Thursday, June 30th)
 updated: 2022-06-30, 3:46:20 pm (Thursday, June 30th)
 ---
+
+## brew: installation path
+
+For m1: `/opt/homebrew`.
+Intel is supposed to be `/usr/local`.
+I'm noting this because an M1 I used had brew in the Intel path for some reason...
+
+[source](https://stackoverflow.com/questions/70983104/brew-installs-not-appearing-in-usr-local-bin)
+
 ## brew: installed apps can't run due to arch
 
 Problem may look like:

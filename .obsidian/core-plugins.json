@@ -1,12 +1,9 @@
 [
   "file-explorer",
   "global-search",
-  "switcher",
   "graph",
-  "backlink",
-  "outgoing-link",
   "tag-pane",
   "page-preview",
-  "command-palette",
+  "zk-prefixer",
   "outline"
 ]
