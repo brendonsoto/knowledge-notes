@@ -16,5 +16,6 @@
   "legacyEditor": false,
   "livePreview": true,
   "strictLineBreaks": true,
-  "useMarkdownLinks": true
+  "useMarkdownLinks": true,
+  "showFrontmatter": true
 }

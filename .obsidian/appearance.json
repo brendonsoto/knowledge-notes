@@ -3,5 +3,6 @@
   "translucency": false,
   "baseFontSizeAction": false,
   "cssTheme": "Primary",
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "accentColor": ""
 }
