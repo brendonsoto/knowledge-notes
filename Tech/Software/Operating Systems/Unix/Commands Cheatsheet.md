@@ -55,3 +55,11 @@ lib/
 
 To delete multiple directories, use **brackets** in the parent directory:
 `rm lib/{assets,tests,utils}`
+
+## Save the output of a command to a file
+For both stdin and stderr:
+`cmd &> file`
+
+## Variables
+From `$1` to `$@` and talking about `shift`:
+https://www.shellscript.sh/variables2.html
