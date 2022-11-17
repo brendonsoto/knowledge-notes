@@ -1,0 +1,189 @@
+{
+  "main": {
+    "id": "9595a1d53d7c1b4e",
+    "type": "split",
+    "children": [
+      {
+        "id": "c13c3be95884c5dc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "38e44f5a29fc5a2f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tech/Software/Programming Languages/Rust/LabeledLoops.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "50c423f24d411e38",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tech/Software/Programming Languages/Rust/ampersand.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cd57939777649273",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tech/Software/Programming Languages/Rust/Structs.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ed6fcaed93786bab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tech/Software/Programming Languages/Rust/ReferencesAndBorrowing.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ad5b65f9faf3e964",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.0.3"
+              }
+            }
+          },
+          {
+            "id": "60c32fec8ecb0ff2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tech/Hardware/SolderingSafety/Misc Links.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "44538711b4fe7ce4",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.0.0"
+              }
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "736c266a600d70fd",
+    "type": "split",
+    "children": [
+      {
+        "id": "46ce1a5b5b2d4759",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8dc37c20740f21d6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "eef6f6e123fce793",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#pocket-operator",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4f32b486102b2a03",
+    "type": "split",
+    "children": [
+      {
+        "id": "f5352868f619f9e1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "68c18b1fde17b33b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "293a54ef6ed20cb1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Tech/Hardware/SolderingSafety/Misc Links.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "60c32fec8ecb0ff2",
+  "lastOpenFiles": [
+    "Tech/Software/Programming Languages/Rust/Structs.md",
+    "Tech/Software/Programming Languages/Rust/ampersand.md",
+    "Tech/Software/Programming Languages/Rust/LabeledLoops.md",
+    "Tech/Software/Programming Languages/Rust/FunctionTypingAndReturns.md",
+    "Tech/Software/Programming Languages/Rust/FunctionDeclaraionOrder.md",
+    "Tech/Software/Programming Languages/Rust/unitTuple.md",
+    "Tech/Software/Ideas/Note Taking system.md",
+    "Tech/Software/Ideas/Note-Taking Ideas.md",
+    "Tech/Software/Programming Languages/Rust/Prelude.md",
+    "Tech/Software/Programming Languages/Rust/TestingFileLocationConventions.md"
+  ]
+}
