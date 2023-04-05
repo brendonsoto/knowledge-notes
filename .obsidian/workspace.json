@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tech/Software/Programming Languages/Rust/LabeledLoops.md",
+                "file": "Tech/Software/Operating Systems/Unix/Commands Cheatsheet.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -108,8 +108,7 @@
               }
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -138,7 +137,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "linux",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -178,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tech/Software/GameDev/Defold.md"
+                "file": "Tech/Software/Operating Systems/Unix/Commands Cheatsheet.md"
               }
             }
           }
@@ -196,8 +195,11 @@
       "zk-prefixer:Create new unique note": false
     }
   },
-  "active": "8dc37c20740f21d6",
+  "active": "38e44f5a29fc5a2f",
   "lastOpenFiles": [
+    "Tech/Software/Programming Languages/Rust/ampersand.md",
+    "Tech/Software/Operating Systems/Unix/Commands Cheatsheet.md",
+    "Tech/Software/Programming Languages/Rust/LabeledLoops.md",
     "Tech/Software/GameDev/Engines.md",
     "Tech/Software/GameDev/Defold.md",
     "Tech/Software/GameDev/Untitled",
@@ -205,8 +207,6 @@
     "Tech/Hardware/SolderingSafety/Misc Links.md",
     "Tech/Hardware/SolderingSafety/Trip Planning.md",
     "Tech/Software/Programming Languages/Rust/Structs.md",
-    "Tech/Software/Programming Languages/Rust/ampersand.md",
-    "Tech/Software/Programming Languages/Rust/LabeledLoops.md",
     "Tech/Software/Programming Languages/Rust/FunctionTypingAndReturns.md",
     "Tech/Software/Programming Languages/Rust/FunctionDeclaraionOrder.md",
     "Tech/Software/Programming Languages/Rust/unitTuple.md",
