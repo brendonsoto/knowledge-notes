@@ -63,14 +63,3 @@ For both stdin and stderr:
 ## Variables
 From `$1` to `$@` and talking about `shift`:
 https://www.shellscript.sh/variables2.html
-
----
-
-## Putting an OS on a USB drive
-1. Find the USB drive partition name using either:
-    - `lsblk`
-    - `sudo fdisk -l`
-2. Unmount the mounted partition:
-    - `umount /dev/sd*` (e.g.  if the partition was mounted at `/dev/sdb` you'd run `umount /dev/sdb`)
-3. Write to the drive:
-    - `dd if=/path/to/image.iso of=/dev/sd* bs=8M status=progress oflag=direct`
