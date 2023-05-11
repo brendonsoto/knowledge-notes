@@ -5,7 +5,7 @@ updated: 2022-04-21, 6:55:50 pm (Thursday, April 21st)
 ---
 **Remote Control** refers to the grid of 4x2 grid of knob displays used to control aspects of the device.
 
-![[Screen Shot 2022-04-21 at 6.51.41 PM.png]]
+![[_images/Screen Shot 2022-04-21 at 6.51.41 PM.png]]
 
 Whether it's visible by default or not *depends on the patch*.
 

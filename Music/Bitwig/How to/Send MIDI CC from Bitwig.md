@@ -15,7 +15,7 @@ To set it up:
 Here's a screenshot showing a way to control the Digitone's operator A level.
 *NOTE* It does look weird how the HW Instrument is targeting Ch 4 but the MIDI CC is targeting channel 1. I guess Note FX just use the Parent device's MIDI settings as an override?
 *NOTE:* The digitone does not respond well to Bitwig's MIDI CC w/ LFOs :(
-![[Screen Shot 2022-08-28 at 9.03.30 AM.png]]
+![[_images/Screen Shot 2022-08-28 at 9.03.30 AM.png]]
 
 ## Way 2: MIDI CC > HW Instrument
 Similar to above, but you have the MIDI CC device first and then HW Instrument.

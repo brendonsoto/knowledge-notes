@@ -10,11 +10,11 @@ This is all on the controller with the atom configured to do this.
 
 1. In the top left, click where it says **Controls**
 
-![[studio-one--control.png]]
+![[_images/studio-one--control.png]]
 
 Afterwards you should see a new pop up
 
-![[studio-one--atom-control.png]]o
+![[_images/studio-one--atom-control.png]]o
 
 2. Right click on a pad to see the *Assign Command...* prompt
 3. Click on the command you want to associate the pad with
