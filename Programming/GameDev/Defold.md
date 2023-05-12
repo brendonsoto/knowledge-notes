@@ -30,3 +30,7 @@ An image representing your game's world. It's made up of smaller images derived 
 
 ### Tile Source
 An image that is used to build out the [Tile Map](Programming/GameDev/Defold.md#Tile%20Map). Defold creates a grid over the image so you can pick different parts of the image while building out your map. It's like using the original image to create the building blocks to make a new one.
+
+---
+
+## Shortcuts
