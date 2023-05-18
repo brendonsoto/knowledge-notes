@@ -1,12 +1,5 @@
 {
-  "zk-prefixer": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "N"
-    }
-  ],
+  "zk-prefixer": [],
   "app:go-back": [
     {
       "modifiers": [
@@ -110,6 +103,15 @@
         "Ctrl"
       ],
       "key": "Z"
+    }
+  ],
+  "file-explorer:new-file": [],
+  "file-explorer:new-file-in-current-tab": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "N"
     }
   ]
 }
