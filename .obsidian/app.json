@@ -17,5 +17,6 @@
   "livePreview": true,
   "strictLineBreaks": true,
   "useMarkdownLinks": true,
-  "showFrontmatter": true
+  "showFrontmatter": true,
+  "defaultViewMode": "source"
 }
