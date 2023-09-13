@@ -9,6 +9,29 @@ Apparently, it's a bit faster to run and slimmer size wise when googling "appIma
 - `chmod a+x <appimage>` -- This is to make it executable
 
 ## How can I turn it into a desktop application that I can use like any other application?
+### DIY
+- Move the file to a place on your `$PATH` (e.g. I have `~/.local/bin`)
+- Download an image to use as for the app's desktop icon
+- Make a file similar to what's below, replacing the template content:
+    - For what categories to use, see [here](https://specifications.freedesktop.org/menu-spec/latest/apa.html)
+
+```
+[Desktop Entry]
+Name=<App-Name>
+Exec=<Path-to-the-executable>
+Icon=<Path-to-the-icon>
+Comment=<Whatcha want to say?>
+Type=Application
+Terminal=false
+Encoding=UTF-8
+Categories=<Category1;Category2;>
+```
+
+- Set the file's permissions to 644 (owner can read/write, group read, and others read)
+- Move the `.desktop` file to `/usr/share/applications/`
+
+
+### With AppImageLauncher
 - Install the latest release of [AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher/releases)
     - Use the `*x86_64.AppImage` file
 - Open your terminal
