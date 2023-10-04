@@ -11,12 +11,13 @@
   "promptDelete": false,
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
-  "newLinkFormat": "absolute",
+  "newLinkFormat": "shortest",
   "autoConvertHtml": false,
   "legacyEditor": false,
   "livePreview": true,
   "strictLineBreaks": true,
   "useMarkdownLinks": true,
   "showFrontmatter": true,
-  "defaultViewMode": "source"
+  "defaultViewMode": "source",
+  "showLineNumber": true
 }
