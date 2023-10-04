@@ -94,6 +94,12 @@ An example of when this is helpful is having a database in one container and you
 
 ## Best Practices
 
+### Build Targets
+
+Build targets is a way to produce multiple images from a single dockerfile. It also utilizes [Multi-Stage Builds](#Multi-Stage%20Builds). To create build targets, just name the final stages. Then you can reference those images in other commands, like `docker build`.
+
+Check out [the docs](https://docs.docker.com/build/guide/multi-stage/#build-targets) for an example using Go to produce client & server images from one dockerfile and more.
+
 ### Debugging Images
 
 You can check the layers of an image using `docker image history <image>`.
@@ -120,3 +126,19 @@ RUN yarn run build
 FROM nginx:alpine
 COPY --from=build /app/build /usr/share/nginx/html
 ```
+
+### Parallelism
+
+It's possible to build containers in parallel with [Multi-Stage Builds](#Multi-Stage%20Builds). There's no fancy syntax like `async/await`. All that's needed is to name the stages that act as dependencies for other stages and use their names in the `FROM` statements.
+
+Check out [the docs for an example](https://docs.docker.com/build/guide/multi-stage/#parallelism).
+
+## Additional goodies
+
+- [Why you shouldn't use ENV variables for secret data](https://blog.diogomonica.com//2017/03/27/why-you-shouldnt-use-env-variables-for-secret-data/)
+
+From Docker:
+- [Develop with Docker](https://docs.docker.com/develop/)
+- [Build with Docker](https://docs.docker.com/build/guide/)
+- [Deployment & Orchestration](https://docs.docker.com/get-started/orchestration/)
+- [Docker Engine](https://docs.docker.com/engine/)
