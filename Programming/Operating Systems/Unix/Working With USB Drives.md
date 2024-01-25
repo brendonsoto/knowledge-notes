@@ -52,13 +52,10 @@ Here `sda` represents my computer's hard drive. I had just [cleared a USB drive]
 
 
 ### Find information on a USB drive
-There are a few ways but the most helpful way I've found has been: `parted /dev/sd* -l`.
-
-I was trying to find whether a USB drive was correctly reformatted using FAT32. The other methods weren't showing me which variation of a FAT file-system the drive was.
+`lsblk -f`
 
 Other methods:
 - `fdisk -l`
-- `lsblk`
 - `file /dev/sd*`
 - `df -Th`
 
@@ -85,7 +82,20 @@ Here's an example for turning a USB into a FAT32 volume where the drive is locat
 
 
 ### Unmount a USB drive
-`sudo umount /dev/sd*` (The asterisk in `sd*` is a placeholder.)
+`sudo umount /dev/sd*`
+The asterisk in `sd*` is a placeholder. To find what to replace it with, run `lsblk` and look at the `MOUNTPOINTS` column. You should see something that resembles your USB drive (e.g. `/run/media/<your-comp-name>/<OS>).
 
-Example where `/dev/sdb` is the path to the USB:
-`sudo umount /dev/sdb`
+For example, let's say `lsblk` returns the following:
+```
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
+sda      8:0    0 238.5G  0 disk
+├─sda1   8:1    0   489M  0 part
+├─sda2   8:2    0   3.7G  0 part [SWAP]
+└─sda3   8:3    0 234.3G  0 part /
+sdb      8:16   1  14.3G  0 disk
+├─sdb1   8:17   1  14.2G  0 part /run/media/my_computer/Ventoy
+└─sdb2   8:18   1    32M  0 part
+zram0  252:0    0   7.7G  0 disk [SWAP]
+```
+
+You would want to run: `sudo umount /dev/sdb1`
