@@ -30,3 +30,6 @@ updated: 2022-04-28, 7:55:20 pm (Thursday, April 28th)
 Electricity + Music
 - How to determine how much wattage is needed to move a speaker
     - context: thinking about making my own 3" guitar amp
+
+Jobs/Companies:
+- The lifecycle of a startup. What do the different series mean? Why is that information important?
