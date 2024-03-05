@@ -19,5 +19,6 @@
   "useMarkdownLinks": true,
   "showFrontmatter": true,
   "defaultViewMode": "source",
-  "showLineNumber": true
+  "showLineNumber": true,
+  "propertiesInDocument": "source"
 }
