@@ -47,7 +47,6 @@ They also recommend [clsx](https://www.npmjs.com/package/clsx) for conditionally
 
 **NOTE:** I saw a `prettier` config in the app files. I wonder if there are any git hooks automatically set up to run prettier before commit.
 
-
 ### Chapter 3: Optimizing Fonts and Images
 
 NextJS downloads any font files at build time and hosts them with your other static assets. This is to prevent another network request on the user's side.
@@ -62,6 +61,33 @@ Images are also optimized, but by using a NextJS component called `Image`. I'm n
     - This is nice.
 - Serving images in modern formats, like WebP and AVIF, when the browser supports it.
     - Are people actually using these formats? It still seems like PNGs and SVGs are the de facto.
+
+### Chapter 4: Creating Layouts and Pages
+
+NextJS uses something called file-system routing (not sure if that's an widely used term) for creating pages. All pages live within the `/app` directory.
+
+To create a page:
+- create a subdirectory within `/app` (or under `/app/other-route` if the new page belongs to another page)
+- add a `page.tsx` file within the new subdirectory
+
+To add a shared layout, a `layout.tsx` file can be added as a sibling file to `page.tsx`. The component can render whatever but must also have a spot for the `children` prop (makes sense).
+
+This is an interesting take on file structure. It features the philosophy of "keeping shared things together" but in a different way than I'm used to. I'm used to having a `/layouts` directory near the root of the application. This approach makes not only sharing layouts between pages easy but also acts as a quick reference point for other developers to see what layouts are available. I found that last point helpful for applications spanning multiple pages where the pages are split between different teams and the teams don't really communicate with each other (leading to rebuilding the same stuff). That's not to say I don't like this approach; I do. I'm thinking as an application and team expand, would this approach still hold? I guess one way to resolve this is to use a combo of the approaches. There can still be the `/app/**/*/layout.tsx` files and those files could share layouts and/or components from `/app/ui`.
+
+Another nice thing I'm learning through this: it's okay to have components with the same name. I'm not just talking file name; every `page.tsx` file exports a component named `Page`. I do wonder though, wait, will add as a question.
+
+#### Questions
+
+##### How does NextJS know to look for page.tsx? Where's the magic?!
+
+##### If every page exports a `Page` component, how does the React DOM tree look like in the React dev tools? Is it hard to identify nested pages?
+
+Hmmm, looking at the React dev tools for the nested invoices page there's no `Page` element to be found at all.
+
+Ahh, I think I found it through the dev tools. There are context providers called `TemplateContext.Provider`. These providers have a `key` prop whose values can be put together to form the route of the page. There is one of these context providers whose key is not part of the route but instead is `__PAGE__`. I am guessing this provider represent the `Page` component.
+
+I'd have to go through the source to confirm. That sounds fun.
+
 
 ## Caveats / Good to know
 
