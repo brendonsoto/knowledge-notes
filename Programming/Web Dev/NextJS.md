@@ -102,6 +102,22 @@ Speaking of server-side rendering, another interesting thing I learned is hooks 
 
 ##### If page content/scripts are prefetched when the Link component is in view, how come I don't see network requests for the 'customers' and 'invoices' pages on page load?
 
+### Chapter 6: Setting up your database
+
+Talk about advertising! Part of me is surprised the authors didn't go with the usual SQLite approach but the other part does see how this can be a valuable marketing opportunity to show how to set up a database with Vercel. This all is convenient, but goodness there's a lot of magic happening.
+
+I think the main take-away from this is that NextJS probably has different `next/*` packages for dealing with different database technologies.
+
+Actually, I'm not super sure. I also realized I was wrong about there being `next/*` packages. The `postgres` package comes from Vercel (`@vercel/postgres`). In NextJS's docs, I can't find anything related to using different databases.
+
+Time to look more at the code (least this app's).
+
+Ahh, yeah, that was pretty quick to find. I initially searched the repo for `db` but found nothing but the references in the `seed.js` file. I figured since it's a small app, a lil manual searching wouldn't hurt. I checked out `lib` first, saw `data.ts`, and saw `@vercel/postgres` right there at the top. Searching for the package shows this file, `data.ts`, to be the only one that references the `postgres` package. I noticed only one function, `fetchFilteredInvoices`, was used in another component (`table.tsx`). I think I can infer from this that NextJS isn't tied to only one type of database.
+
+### Chapter 7: Fetching Data
+
+
+
 
 ## Caveats / Good to know
 
