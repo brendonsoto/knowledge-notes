@@ -1,4 +1,7 @@
 ---
+tags:
+- startup
+- career
 createdAt: 2024-03-05T14:34Z
 modified: 2024-03-05T15:19Z
 ---
