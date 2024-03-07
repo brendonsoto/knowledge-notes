@@ -116,8 +116,24 @@ Ahh, yeah, that was pretty quick to find. I initially searched the repo for `db`
 
 ### Chapter 7: Fetching Data
 
+Starts off describing different ways to fetch data. I think the main point is that you can either have an API layer that the client calls to get data (whether SQL queries or other) or use server-side React components (aka Server Components) to fetch data for you. The latter cuts out the API layer. The trade off is a network request for markup instead of a network for data, alongside some client-side computation.
 
+I can see server-side rendering being helpful if the application you're working on is computationally complex and your user base uses a variety of devices that may not all be powerful (e.g. phones).
 
+One thing I do wonder, how come they have the data separated out from the components where they are needed? On one hand, I can see there being an argument of computational vs presentational components here: the `RevenueChart` and `LatestInvoices` components can focus on just visuals. However, if you wanted to use those components elsewhere, that means the parent has to make the fetches for the data. In this case, it's not a big problem. I guess it's not a big problem too when the fetches are small and encapsulated, but what happens when an application grows? What if one data set depends on another?
+
+I'm still wondering how loading states are handled.
+
+Ahh, I'm guessing that's for the next chapter. The section after the code quiz mentioned:
+> By default, Next.js prerenders routes to improve performance, this is called Static Rendering. So if your data changes, it won't be reflected in your dashboard.
+
+I'm guessing the next chapter will cover more on this.
+
+#### Questions
+
+##### What if one data set depends on another?
+
+The server component can handle it. Any fetches, if not wrapped in a `Promise.all` or `Promise.allSettled`, happen sequentially. As a result, they will block each other in the order they are placed. It is possible then to have a component that first fetches user data and then uses that data to fetch other data, like posts or photos. `Promise.all|allSettled` can still be used to parallelize async requests within components.
 
 ## Caveats / Good to know
 
