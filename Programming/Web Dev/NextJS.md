@@ -80,6 +80,8 @@ Another nice thing I'm learning through this: it's okay to have components with 
 
 ##### How does NextJS know to look for page.tsx? Where's the magic?!
 
+Was peaking around the source code, but couldn't find anything definitive just yet...
+
 ##### If every page exports a `Page` component, how does the React DOM tree look like in the React dev tools? Is it hard to identify nested pages?
 
 Hmmm, looking at the React dev tools for the nested invoices page there's no `Page` element to be found at all.
@@ -87,6 +89,18 @@ Hmmm, looking at the React dev tools for the nested invoices page there's no `Pa
 Ahh, I think I found it through the dev tools. There are context providers called `TemplateContext.Provider`. These providers have a `key` prop whose values can be put together to form the route of the page. There is one of these context providers whose key is not part of the route but instead is `__PAGE__`. I am guessing this provider represent the `Page` component.
 
 I'd have to go through the source to confirm. That sounds fun.
+
+### Chapter 5: Navigating between pages
+
+NextJS has a `Link` component exported from `next/link` (default export). It looks, prop-wise, very similar to an `<a>` tag. Adding it enables the app to *feel* like a SPA (Single Page Application).
+
+I learned NextJS defaults to server-side rendering React. The `Link` component triggers the scripts/content for the related page to be prefetched once the component enters the viewport.
+
+Speaking of server-side rendering, another interesting thing I learned is hooks can only be used on the client side, at least within the context of NextJS.
+
+#### Questions
+
+##### If page content/scripts are prefetched when the Link component is in view, how come I don't see network requests for the 'customers' and 'invoices' pages on page load?
 
 
 ## Caveats / Good to know
