@@ -15,3 +15,4 @@ If you're *leaving off* somewhere or making a *blank note* or some other task, j
 #to-do
 
 - maybe include a commit linter?
+- add a section on how to use different ssh-keys and gitconfigs per computers
